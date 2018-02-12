@@ -6,17 +6,15 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Coin.h"
-#import "Trade.h"
+#import "BlockfolioClient.h"
 
 /*
- Uses the Blockfolio REST API to retrieve all the trades entered into the app, for any or all coins,
+ Retrieves all the trades entered into the app, for any or all coins,
  and exports that data in some custom format suitable for other app.
  */
 @interface ExportJob : NSObject
 
-/* The user's access token */
-@property (strong) NSString *accessToken;
+@property (strong) BlockfolioClient *client;
 
 /*
  Export all the trades for each coin in the user's portfolio

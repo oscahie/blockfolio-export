@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25E2B5E8202F6642004DCDC5 /* BlockfolioClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E2B5E7202F6642004DCDC5 /* BlockfolioClient.m */; };
 		25E8859220092F7E00DDD7F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E8859120092F7E00DDD7F2 /* main.m */; };
 		25E8859A2009302B00DDD7F2 /* Coin.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E885992009302B00DDD7F2 /* Coin.m */; };
 		25E8859D200931A700DDD7F2 /* ExportJob.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E8859C200931A700DDD7F2 /* ExportJob.m */; };
@@ -27,6 +28,8 @@
 
 /* Begin PBXFileReference section */
 		2592FBAC202282A600290219 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		25E2B5E6202F6642004DCDC5 /* BlockfolioClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockfolioClient.h; sourceTree = "<group>"; };
+		25E2B5E7202F6642004DCDC5 /* BlockfolioClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockfolioClient.m; sourceTree = "<group>"; };
 		25E8858E20092F7E00DDD7F2 /* BlockfolioExport */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BlockfolioExport; sourceTree = BUILT_PRODUCTS_DIR; };
 		25E8859120092F7E00DDD7F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		25E885982009302B00DDD7F2 /* Coin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coin.h; sourceTree = "<group>"; };
@@ -75,6 +78,8 @@
 				25E8859F2009329100DDD7F2 /* Trade.m */,
 				25E8859B200931A700DDD7F2 /* ExportJob.h */,
 				25E8859C200931A700DDD7F2 /* ExportJob.m */,
+				25E2B5E6202F6642004DCDC5 /* BlockfolioClient.h */,
+				25E2B5E7202F6642004DCDC5 /* BlockfolioClient.m */,
 			);
 			path = BlockfolioExport;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 				25E8859A2009302B00DDD7F2 /* Coin.m in Sources */,
 				25E8859D200931A700DDD7F2 /* ExportJob.m in Sources */,
 				25E885A02009329100DDD7F2 /* Trade.m in Sources */,
+				25E2B5E8202F6642004DCDC5 /* BlockfolioClient.m in Sources */,
 				25E8859220092F7E00DDD7F2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

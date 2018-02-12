@@ -7,16 +7,19 @@
 
 #import <Foundation/Foundation.h>
 #import "ExportJob.h"
+#import "BlockfolioClient.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
         NSLog(@"Export begins");
         
-        ExportJob *job = [ExportJob new];
-        
+        BlockfolioClient *client = [BlockfolioClient new];
         // set your access token as shown by Blockfolio under the Settings menu
-        job.accessToken = @"<INSERT_BLOCKFOLIO_TOKEN_HERE>";
+        client.accessToken = @"<INSERT_BLOCKFOLIO_TOKEN_HERE>";
+        
+        ExportJob *job = [ExportJob new];
+        job.client = client;
         
         // export all trades for all coins in your portfolio
         [job exportAllTrades];

@@ -9,4 +9,9 @@
 
 @implementation Trade
 
+- (NSDate *)tradeDate
+{
+    return [NSDate dateWithTimeIntervalSince1970:self.timestamp/1000];
+}
+
 @end
